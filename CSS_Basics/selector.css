@@ -1,0 +1,43 @@
+/* This type of selector applies style to all the p tag in the HTML
+This is an Element Selector */
+p {
+  color: orange;
+  background-color: black;
+}
+
+h2 {
+  color: blue;
+}
+
+/* Only apply below style to an element which has id="para4" */
+#para4 {
+  /*'#' is used to denote Id */
+  color: red;
+  background-color: yellow;
+}
+
+/* The above example is Id Selector */
+/* Only apply below style to one or more elements which are applied below class
+This is a class selector */
+.text-purple {
+  /* '.' is used to denote class */
+  color: purple;
+  font-size: large;
+}
+
+.bg-beige {
+  background-color: beige;
+}
+
+#para7 {
+  color: yellowgreen;
+  background-color: black;
+}
+
+/* When we have to apply same styling to multiple elements then grouping selector is used. */
+/* Grouping Selector */
+nav, footer {
+  background-color: gold;
+  color: olive;
+  font-size: xx-large;
+}
