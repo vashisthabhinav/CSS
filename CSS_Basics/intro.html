@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Introduction</title>
+  <!-- Internal CSS styling -->
+  <style>
+    p {
+      color: orange;
+      background-color: black;
+    }
+  </style>
+  <!-- External CSS styling -->
+  <link rel="stylesheet" href="intro.css">
+</head>
+
+<body>
+  <!-- Inline styling -->
+  <h3 style="color: red;background-color: blue; border: 3px solid green;">
+    Welcome to CSS
+  </h3>
+  <!-- This type of styling is not re-usable, Also it is making html file look complicated -->
+  <p>Learning CSS from zero. It is a p tag </p>
+  <p>Another p tag</p>
+  <p>Another p tag</p>
+  <p>Another p tag</p>
+  <div>Div tag</div>
+  <!-- What happens when same property is present in inline, internal and external type of styling -->
+  <p style="color: bisque;background-color: royalblue;">Checking same property. p tag.What happens when same property is present in inline, internal and external type of styling</p>
+  <!-- Styling of p tag is done in inline, internal as well as external type.
+But styling done in the inline type of CSS is applied. -->
+  <!-- If we want to change the preference !important tag is used. -->
+  <div style="color: green; background-color: antiquewhite;">Div tag to change the preference using !important</div>
+
+</body>
+
+</html>
