@@ -1,0 +1,20 @@
+#p1 {
+  color: rebeccapurple;
+}
+
+#p2 {
+  color: rgb(255, 255, 0);
+  /* rgb ranges from 0 to 255
+    White is rgb(255, 255, 255)
+      Black is rgb(0, 0, 0) */
+}
+
+/* The below way is the hexa-decimal way */
+#p3 {
+  color: #000fff;
+}
+
+.text-style {
+  font-size: 20px;
+  font-family: 'Times New Roman';
+}
