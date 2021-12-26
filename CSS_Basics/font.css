@@ -1,0 +1,29 @@
+div {
+  font-family: 'Courier New', Courier, monospace;
+  /* Specifies a prioritized list of font family names or generic family names.
+    A user agent iterates through the list of family names until it matches an available font that contains a glyph for the character to be rendered */
+}
+
+/* Google fonts can also be used through web */
+h2 {
+  font-family: 'Roboto', 'Times New Roman', Times, serif;
+  border-bottom: 1px solid red;
+}
+
+p {
+  border-top: 1px solid green;
+  font-family: cursive;
+  font-size: 30px;
+  /* 1px is 1/96th of inch */
+  line-height: 30px;
+  /* It is the space between 2 lines*/
+  /* Tells about the gap between p tag and other tags */
+}
+
+/* To bold CSS placed inside span tag */
+span {
+  font-weight: bold;
+  /* To change colour of only CSS  */
+  color: gold;
+  font-style: italic;
+}
