@@ -11,7 +11,7 @@ Responsive means that the site will behave accordingly to the different screen s
 2. Internal CSS file
 3. External CSS file
 
-If all three types of styling are present then the inline styling takes preference. <br>
+If all three types of styling are present then inline styling takes preference. <br>
 Inline Styling > Internal CSS Styling > External CSS Styling <br>
 <h3> Syntax </h3>
 
@@ -22,4 +22,4 @@ Every CSS has certain things- <br>
 - CSS element Selector
 - CSS Id Selector
 - CSS Class Selector
-- The CSS grouping Selector
+- The CSS Grouping Selector
