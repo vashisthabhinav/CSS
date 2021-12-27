@@ -1,4 +1,4 @@
-<h2> CSS- Cascading Style Sheets </h2>
+<h1> CSS- Cascading Style Sheets </h1>
 
 Cascading Style Sheets is used to design the website to make it look better. <br>
 - CSS gives style to raw HTML and our web pages
