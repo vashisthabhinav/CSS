@@ -9,7 +9,7 @@ Responsive means that the site will behave accordingly to the different screen s
 2. Internal CSS file
 3. External CSS file
 If all three types of styling are present then the inline styling takes preference. <br>
-Inline Styling > Internal CSS > External CSS <br>
+Inline Styling > Internal CSS Styling > External CSS Styling <br>
 ## Syntax
 Every CSS has certain things- <br>
 1st part is called selector, and then in curly braces, we write property and value on the left and right side of a colon respectively. Another pair of property and value can be added by using a semi colon after the 1st pair. <br>
