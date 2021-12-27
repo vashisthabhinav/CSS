@@ -10,7 +10,7 @@ Responsive means that the site will behave accordingly to the different screen s
 1. Inline CSS
 2. Internal CSS file
 3. External CSS file
-<br>
+
 If all three types of styling are present then the inline styling takes preference. <br>
 Inline Styling > Internal CSS Styling > External CSS Styling <br>
 <h3> Syntax </h3>
