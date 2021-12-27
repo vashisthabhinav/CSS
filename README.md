@@ -1,4 +1,4 @@
-# CSS
+# CSS- Cascading Style Sheets
 Cascading Style Sheets is used to design the website to make it look better. <br>
 - CSS gives style to raw HTML and our web pages
 - CSS is used to make website responsive.
