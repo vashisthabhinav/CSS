@@ -1,0 +1,43 @@
+ /* 
+ '*' means on everything
+ */
+ * {
+   margin: 0px;
+   padding: 0px;
+   /* Problem-
+    The total width of the container is greater than specified height and width of the container due to padding, border and margins
+    This problem is called box model issue
+    We solve this by property called box-sizing and we give the value to border box */
+   box-sizing: border-box;
+ }
+
+ .container {
+   height: 150px;
+   border: 1px solid orange;
+   background-color: antiquewhite;
+   /* Padding is between border and content */
+   padding: 10px;
+   /* Margin is outside the border */
+   margin: 5px;
+   border-radius: 10px;
+ }
+
+ .container1 {
+   height: 150px;
+   border: 1px solid orange;
+   background-color: antiquewhite;
+   /* Padding is between border and content */
+   /* padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 40px; */
+   /* Or */
+   /* padding: 50px 10px 30px 40px; */
+   /*Top->Right->Bottom->Left (Clockwise)*/
+   padding: 20px 50px;
+   /* 20px on y axis and 50 px on x axis */
+   /* Margin is outside the border */
+   margin: 5px;
+   /* Same can be done on margin as well */
+   border-radius: 10px;
+ }
