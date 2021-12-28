@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 750px;
+    border: 2px solid red;
+    background-color: chocolate;
+    margin: 40px auto;/*40px from the y-axis and auto for x-axis*/
+}
+.item{
+    border: 4px solid green;
+    padding: 10px 2px;
+    margin: 10px 2px;
+    background: lightblue;
+}
+#fruit{
+    width: 40%;/*Takes 50% of the width of the container */
+    float: right;
+}
+#computer{
+    width: 40%;/*Takes 50% of the width of the container */
+    float: left;
+}
+#stationary{
+    width: 100%;/*Takes 50% of the width of the container */
+    clear: both; /*Clear both left and right*/
+}
+/* Float property helps in aligning an element to the left or right.
+But, if there are more elements alongside used with float, then the float elements starts to fall on other elements. 
+So, the other element has to do a 'clear' to ensure no falling of other elements on itself. */
+
+/* To align the words inside the elemets */
+p,h3{
+    text-align: justify;
+}
