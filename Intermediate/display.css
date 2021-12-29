@@ -1,0 +1,48 @@
+.top-section {
+  border: 1px solid red;
+  margin: auto;
+  /*To make div at center*/
+  width: 90%;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  /* By default, image is an inline element.
+    So, by making its display as block, we can change its postion to place it at the center. */
+  margin: auto;
+}
+
+h4 {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  text-align: center;
+}
+
+/* img is an inline element and h4 is block element */
+.wrap {
+  border: 3px solid rebeccapurple;
+  background-color: yellow;
+  margin: 5px;
+  width: 30%;
+  /*So that it is able to adjust 3blocks in the same line.*/
+  display: inline-block;
+  /*The display: inline-block Value
+Compared to display: inline, the major difference is that display: inline-block allows to set a width and height on the element.
+
+Also, with display: inline-block, the top and bottom margins/paddings are respected, but with display: inline they are not.
+
+Compared to display: block, the major difference is that display: inline-block does not add a line-break after the element, so the element can sit next to other elements.*/
+  /* Sometimes not all the blocks will come in same line due to padding.
+This is the box model problem where the total width is crossed by margin and the padding.
+Therefore, box-sizing is used.
+  */
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+.container {
+  margin: auto;
+  width: 1000px;
+}
