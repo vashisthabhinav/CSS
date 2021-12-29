@@ -1,0 +1,43 @@
+
+.container{
+    width: 650px;
+    margin: 20px auto;
+    border: 1px solid teal;
+    border-radius: 15px;
+    padding: 20px;
+    background: lightblue;
+}
+a{
+    text-decoration: none;
+    /* anchor tag automatically adds under-line to its statement thinkg that it is a link.
+    To remove the underline, text decoraation is kept as null. */
+}
+.button{
+    background-color: greenyellow;
+    padding: 10px;
+    border: none;
+    cursor: pointer;/*Shows a pointer when hovered*/
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 10px;
+    color: royalblue;
+}
+/* Pseudo selectors are also a type of selectors.
+A pseudo-class is used to define a special state of an element.
+
+For example, it can be used to:
+- Style an element when a user mouses over it
+- Style visited and unvisited links differently
+- Style an element when it gets focus */
+a:hover{
+    background-color: lightgreen;
+}
+a:visited{
+    background-color: chocolate;
+}
+a:active{
+    background-color: white;
+}
+.button:hover{
+    background-color: lightgreen;
+}
