@@ -1,41 +1,36 @@
-.item{
-    border: 3px solid seagreen;
-    width: 140px;
-    height: 140px;
-    margin: 5px;
-    display: inline-block;
+.item {
+  border: 3px solid seagreen;
+  width: 140px;
+  height: 140px;
+  margin: 5px;
+  display: inline-block;
 }
-.parent{
-    border: 2px solid red;
-    background-color: aliceblue;
-    height: 2000px;
+
+.parent {
+  border: 2px solid red;
+  background-color: aliceblue;
+  height: 2000px;
 }
+
 /*  css position: static(default), absolute, relative, fixed, sticky
     position: relative allows us to move that element from its normal position.
     position: absolute allows us to move that element from its normal immidiate parent.
     position: static will follow normal Document Object Model(DOM) flow.
     position: fixed will make element at a certain position relative to the browser.
     position: sticky will stick to the browser and gets dragged along when scrolled.*/
-#item3{
-
-    position: static;
-    top: 50px;
-    
-    /* position: relative;
+#item3 {
+  position: static;
+  top: 50px;
+  /* position: relative;
     top: 50px;
     left: 50px; */
-
-    
-    /* In this case, immidiate parent is another div i.e., parent */
-    /* position: absolute;
+  /* In this case, immidiate parent is another div i.e., parent */
+  /* position: absolute;
     top: 50px;
     left: 50px;  */
-
-    
-    /* position: fixed;
+  /* position: fixed;
     bottom: 50px;
     left: 50px; */
-
-    /* position: sticky;
+  /* position: sticky;
     top: 5px; */
 }
