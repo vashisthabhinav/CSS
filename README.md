@@ -16,7 +16,8 @@ Inline Styling > Internal CSS Styling > External CSS Styling <br>
 <h3> Syntax </h3>
 
 Every CSS has certain things- <br>
-1st part is called selector, and then in curly braces, we write property and value on the left and right side of a colon respectively. Another pair of properties and values can be added by using a semi-colon after the 1st pair. <br>
+1st part is called selector, and then in curly braces, we write property and value on the left and right side of a colon respectively. <br>
+Another pair of properties and values can be added by using a semi-colon after the 1st pair. <br>
 <h3> 4 Types of Selectors in CSS </h3>
 
 - CSS element Selector
