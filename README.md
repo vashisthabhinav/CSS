@@ -4,7 +4,7 @@ Cascading Style Sheets is used to design the website to make it look better. <br
 - CSS gives style to raw HTML and our web pages
 - CSS is used to make the website responsive.
 
-Responsive means that the site will behave accordingly to the different screen sizes. For example, while looking at mobile phones and laptops, the site should automatically change its styling. <br> 
+Responsive means that the site will behave accordingly to the different screen sizes. <br> For example, while looking at mobile phones and laptops, the site should automatically change its styling. <br> 
 <h3> 3 ways to include CSS </h3>
 
 1. Inline CSS
