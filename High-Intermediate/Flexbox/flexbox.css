@@ -1,0 +1,50 @@
+.flex-container{
+    width: 100%;
+    height: 500px;
+    border: 3px solid blue;
+    /* To initailize a flexbox or container */
+    display: flex;/*Elements align themselves vertically instead of horizontal.*/
+
+    /* Flex properties to be apllied on flexbox/container  */
+    /* flex-direction: row; --> Default property of the flexbox.Gets stacked in one single row.*/
+    /* flex-direction: column; */
+    /* It comes ine below another. Gets stacked in one single column. */
+    /* flex-direction: row-reverse; */
+    /* Gets stacked in one row but in opposite direction.(right to left) */
+    /* flex-direction: column-reverse; */
+    /* Gets stacked in one column but in opposite direction. (from bottom to top) */
+
+    /* To wrap the flexbox to make it responsive when the size of the window is changing. 
+    The default is no wrap in the case of flexbox.*/
+    flex-wrap: wrap;
+
+    /* flex-wrap: wrap-reverse; */
+    /* Reverse of normal wrap */
+
+    /* Another shorthand version.
+    direction:wrap */
+    /* flex-flow: row-reverse wrap; */
+
+    justify-content: center;
+    /* All of our elements will get centrally aligned. */
+
+    /* justify-content: space-between; */
+    /* There are equal spaces between elements. 
+    There is no starting and ending space.*/
+
+    /* justify-content: space-around; */
+    /* Equal spaces around each flex item. */
+
+    justify-content: space-evenly;
+    /* It will have equal spaces from all sides of each and every flexbox.*/
+
+
+}
+.flex-item{
+    border: 2px solid lightgreen;
+    background-color: greenyellow;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    padding: 3px;
+}
