@@ -7,7 +7,8 @@
 
     /* Flex properties to be apllied on flexbox/container  */
     /* flex-direction: row; --> Default property of the flexbox.Gets stacked in one single row.*/
-    /* flex-direction: column; */
+    /* flex-direction: column;*/
+    /*Used with flex basis to show change in height.*/
     /* It comes ine below another. Gets stacked in one single column. */
     /* flex-direction: row-reverse; */
     /* Gets stacked in one row but in opposite direction.(right to left) */
@@ -16,7 +17,7 @@
 
     /* To wrap the flexbox to make it responsive when the size of the window is changing. 
     The default is no wrap in the case of flexbox.*/
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
     /* flex-wrap: wrap-reverse; */
     /* Reverse of normal wrap */
@@ -35,10 +36,27 @@
     /* justify-content: space-around; */
     /* Equal spaces around each flex item. */
 
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     /* It will have equal spaces from all sides of each and every flexbox.*/
 
+    /* justify-content is to align horizontally.
+    To align them vertically, align-items is used. */
 
+    /* align-items: center; */
+    /* To align items at the centremost position vertically. */
+
+    /* align-items: flex-end; */
+    /* Aligns at the bottom-most position vertically. */
+
+    /* align-items: flex-start; */
+    /* It is the default behaviour. */
+    /* Aligns at the top-most position vertically. */
+
+    /* align-items: stretch; */
+    /* It stretches the box so that equal spaces are occupied between different blocks vertically.
+    Allows equal vertical space between flex items.*/
+
+    
 }
 .flex-item{
     border: 2px solid lightgreen;
@@ -47,4 +65,40 @@
     height: 150px;
     margin: 5px;
     padding: 3px;
+}
+/* Only using 3 flex items. Rest three have been comented in the html file. */
+#flex-item1{
+    /* Flex properties to be applied on flex items.
+    (On individual items)*/
+
+
+    /* order: 2; */
+    /* Higher the order of a flex item, the later it will appear in the group. */
+
+    flex-grow: 3;
+    /* flex-grow occupies space bigger than other item depending upon the number we have given to the flex-grow.*/
+    
+    flex-shrink: 3;
+    /* It has grown the maximum when given the chance. Similarly, it will shrink the maximum when the size of the window is small.*/
+}
+#flex-item2{
+    /* order: 40; */
+    /* flex-grow: 2; */
+    flex-basis: 250px;
+    /* In flex direction row, flex-basis controls the width of flex items.
+    In flex direction column, flex-basis controls the height of flex items. */
+}
+#flex-item3{
+    /* order: 39; */
+    /* flex-basis: 300px; */
+    /* shorthand version: grow shrink basis.*/
+    /* flex: 3 3 300px; */
+
+    /* To align individual items in the flexbox, align-self is used. */
+    align-self: flex-start;
+    /* Default */
+
+    align-self: flex-end;
+
+    align-self: center;
 }
