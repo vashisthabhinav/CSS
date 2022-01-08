@@ -1,0 +1,85 @@
+/* Media Queries helps you to create a responsive website which can adjust to any device.  */
+
+.item {
+  background-color: aquamarine;
+  color: black;
+  text-align: center;
+  font-size: 65px;
+  display: none;
+  /* Used by default. Nothing will appear. */
+}
+
+/*0px to 300px width apply below rules*/
+@media only screen and (max-width:300px) {
+
+  /* If max width is 300px then item 1 will be displayed. */
+  #item-1 {
+    display: block;
+  }
+
+  /* We can dynamically inject css styling in our elements by overriding the stylings when the screen width changes using Media Queries. */
+}
+
+/*300px to 500px width apply below rules*/
+@media only screen and (min-width:300px) and (max-width:500px) {
+
+  /* If width is between 300px to 500px, then item 2 is also displayed. */
+  #item-1 {
+    display: block;
+  }
+
+  #item-2 {
+    display: block;
+    background-color: rgb(132, 165, 42);
+  }
+}
+
+/*500px to 800px width apply below rules*/
+@media only screen and (min-width:300px) and (max-width:800px) {
+
+  /* If width is between 500px to 800px, then item 3 is also displayed. */
+  #item-1 {
+    display: block;
+  }
+
+  #item-2 {
+    display: block;
+    background-color: rgb(132, 165, 42);
+  }
+
+  #item-3 {
+    display: block;
+    background-color: rgb(42, 147, 165);
+  }
+}
+
+/*800px and above width apply below rules*/
+@media only screen and (min-width:800px) {
+
+  /* If min width is 800px then item 4 will be displayed. */
+  #item-1 {
+    display: block;
+  }
+
+  #item-2 {
+    display: block;
+    background-color: rgb(132, 165, 42);
+  }
+
+  #item-3 {
+    display: block;
+    background-color: rgb(42, 147, 165);
+  }
+
+  #item-4 {
+    display: block;
+    background-color: rgb(75, 42, 165);
+  }
+}
+
+/* only screen is added in the if block using 'and' as a logical operator.
+screen: It is used to set the screen size of media query.
+The screen size can be set by using max-width and min-width.
+The screen size is differ from screen to screen.
+
+only screen: The only keyword is used to prevent older browsers that do not support media queries with media features from applying the specified styles.*/
