@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+.container {
+  font-size: 10px;
+  border: 3px solid blue;
+  width: 300px;
+  /* height: 612px; To make the border occupy whole of the screen.*/
+  /* Instead use vh(viewport height) and vw(viewport width) */
+  height: 100vh;
+  width: 100vw;
+}
+
+#one {
+  /* font-size: 2em;  */
+  /* 2em = 2 * font size of immediate parent(i.e., div.container ) = 2 * 10 = 20px in this case.*/
+  /* em is applicable to margin, padding, etc. as well. */
+  /* padding:0.5em; */
+  /* We have already applied font size in this id. So, the padding won't take container(or the immediate parent) size.
+    Rather it will take font size of the id i.e., 20 and then multiply it by 0.5 i.e., 10 */
+}
+
+#two {
+  /* font-size: 3rem;  */
+  /*calculates based on root html element 3rem = 3 * 20(html) = 60px*/
+  /* padding: 2rem;  */
+  /*calculates based on root html element 2rem = 2 * 20(html) = 40px*/
+}
