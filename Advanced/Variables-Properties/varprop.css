@@ -1,0 +1,28 @@
+/* Complex websites have very large amounts of CSS, often with a lot of repeated values.
+For example, the same color might be used in hundreds of different places, requiring global search and replace if that color needs to change.
+Custom properties allow a value to be stored in one place, then referenced in multiple other places.  */
+:root{/*declare global variables here using :root pseudo class*/
+    --item-color: rgb(196, 196, 21);
+    /* Declaring a custom property is done using a custom property name that begins with a double hyphen (--), 
+    and a property value that can be any valid CSS value. */
+    --primary-color: teal;
+    --secondary-color: rgb(240, 33, 26);
+    --max-w: 700px;/*maximum width*/
+}
+.item{
+    width: 220px;
+    height: 220px;
+    background-color: var(--item-color);
+    border: 2px solid var(--secondary-color);
+    color: white;
+    margin: 20px;
+    box-shadow: 5px 5px var(--secondary-color);
+}
+.container{
+    display: flex;/*Boxes come on beside others*/
+    background-color: var(--primary-color);
+    max-width: var(--max-w);
+    justify-content: center;
+    margin: auto;/*Important*/
+    align-items: center;
+}

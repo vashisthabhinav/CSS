@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  background-color: indigo;
+  color: ivory;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  background-color: lawngreen;
+  /* Aligning items in the center of the box. */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  transition: all 1s ease-in-out;
+  /* transform: rotate(60deg); */
+}
+
+.box:hover {
+  /* transform: rotate(360deg); */
+  /* Rotating the box 360 degree. */
+
+  /* transform: skew(30deg); */
+  /* To give a special or 3D effect. */
+
+  /* transform: scale(2); */
+  /* Scale is used to give a zoom effect. 2 means 2xtimes */
+
+  /* transform: translateX(100px); */
+  /* Moving towards x-axis */
+  
+  /* transform: translateY(100px); */
+  /* Moving towards y-axis */
+
+  /* transform: translateZ(100px); */
+  /* No effect in the z-axis  */
+
+  transform: translate(100px, 100px); 
+  /* Move in x-direction, Move in y-direction */
+}
