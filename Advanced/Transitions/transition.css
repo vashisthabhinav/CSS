@@ -1,0 +1,42 @@
+.box{
+    height: 250px;
+    width: 250px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    /*the property you want to apply transition for*/
+
+
+    transition-duration: 1s;
+    /* For how long our transition will take effect*/
+
+
+    transition-timing-function: ease-in-out;
+    /*ease-in --> start slow and end very fast
+      ease-out --> start fast and end very slow
+      ease-in-out --> speed first increases and then decreases. */
+
+
+    transition-delay: 3s;
+    /* Transition start after a specified duration. */
+
+
+    /*short hand way of applying transition*/
+    /* transition: background-color 1s ease-in-out 3s; */
+    /* In order of- place where transition is to be applied, duration, timing-function, delay  */
+
+    transition: all 3s ease-in-out 1s;
+    /* To do transition on all the properties */
+
+}
+/*transition only works for continuous value property like color, opacity, ht, wt, margin, font-size*/
+.box:hover{
+    /* Whenever the box is hovered, it changes to the following- */
+    background-color: greenyellow;
+    width: 500px;
+    height: 500px;
+    font-size: 50px;
+    border-radius: 50%;
+}
